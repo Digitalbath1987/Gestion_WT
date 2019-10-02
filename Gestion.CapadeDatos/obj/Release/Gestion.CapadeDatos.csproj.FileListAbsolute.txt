@@ -1,0 +1,9 @@
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\bin\Release\Gestion.CapadeDatos.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\bin\Release\Gestion.CapadeDatos.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\bin\Release\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\bin\Release\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\obj\Release\Gestion.CapadeDatos.csprojAssemblyReference.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\obj\Release\Gestion.CapadeDatos.csproj.CoreCompileInputs.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\obj\Release\Gestion.CapadeDatos.csproj.CopyComplete
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\obj\Release\Gestion.CapadeDatos.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Gestion.CapadeDatos\obj\Release\Gestion.CapadeDatos.pdb

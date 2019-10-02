@@ -1,0 +1,10 @@
+C:\Users\Digital\Desktop\codigos fuentes\GestionWT2.0\Entidades.Gestion\bin\Debug\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\codigos fuentes\GestionWT2.0\Entidades.Gestion\bin\Debug\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.csproj.CoreCompileInputs.cache
+C:\Users\Digital\Desktop\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\GestionWT2.0\Entidades.Gestion\bin\Debug\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\GestionWT2.0\Entidades.Gestion\bin\Debug\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.csproj.CoreCompileInputs.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\GestionWT2.0\Entidades.Gestion\obj\Debug\Entidades.Gestion.pdb

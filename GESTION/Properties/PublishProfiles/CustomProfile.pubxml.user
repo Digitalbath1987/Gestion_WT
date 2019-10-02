@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Digital\Desktop\Gestion</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Agentes.aspx">
+      <publishTime>09/30/2019 18:03:36</publishTime>
+    </File>
+    <File Include="AgregarCustomer.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="AgregarNaviera.aspx">
+      <publishTime>09/30/2019 18:03:46</publishTime>
+    </File>
+    <File Include="AgregarNombreAgente.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="agregarop.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Agregar_Nuevo_Customer.aspx">
+      <publishTime>09/30/2019 18:03:36</publishTime>
+    </File>
+    <File Include="Archivos/Archivo.txt">
+      <publishTime>09/30/2019 21:26:22</publishTime>
+    </File>
+    <File Include="bin/Entidades.Gestion.dll">
+      <publishTime>09/30/2019 16:38:53</publishTime>
+    </File>
+    <File Include="bin/Entidades.Gestion.pdb">
+      <publishTime>09/30/2019 16:38:53</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.QualityTools.Testing.Fakes.resources.dll">
+      <publishTime>07/26/2012 21:49:06</publishTime>
+    </File>
+    <File Include="bin/Gestion.CapadeDatos.dll">
+      <publishTime>09/30/2019 16:38:53</publishTime>
+    </File>
+    <File Include="bin/Gestion.CapadeDatos.pdb">
+      <publishTime>09/30/2019 16:38:53</publishTime>
+    </File>
+    <File Include="bin/GESTION.dll">
+      <publishTime>10/01/2019 15:22:51</publishTime>
+    </File>
+    <File Include="bin/GESTION.pdb">
+      <publishTime>10/01/2019 15:22:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
+      <publishTime>07/26/2012 20:41:24</publishTime>
+    </File>
+    <File Include="BuscarFacturas.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="buscarlinkfac.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="BuscarOP.aspx">
+      <publishTime>09/30/2019 18:41:01</publishTime>
+    </File>
+    <File Include="CambiarPass.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Clientes.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="CobranzaAgentes.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Cobranzas Agentes/PDF/Archivo.txt">
+      <publishTime>09/30/2019 11:41:09</publishTime>
+    </File>
+    <File Include="Cobranzas.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Correo.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Detalle_Control_Op.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="ExportarNCreditos.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="ExportarSolCheques.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Exportar_Control_Op.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Exportar_Excel_NCobro.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Exportar_Guias.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="exportavsoft.aspx">
+      <publishTime>09/30/2019 21:40:00</publishTime>
+    </File>
+    <File Include="exportEXC.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="FiltrarNC.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="FiltrarNotaC.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="FiltrarPagAgentes.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="FiltrarPagos.aspx">
+      <publishTime>09/30/2019 18:37:07</publishTime>
+    </File>
+    <File Include="Filtros.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Filtros_Guias.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="finalizarNC.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Guia_Despacho.aspx">
+      <publishTime>09/25/2019 15:29:41</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>09/30/2019 17:59:11</publishTime>
+    </File>
+    <File Include="HomeMaster.Master">
+      <publishTime>09/30/2019 17:50:42</publishTime>
+    </File>
+    <File Include="Imagenes/111111listo.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/agreop.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Anterior.PNG">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/anularpago.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/botonexportar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btnbpeq.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btnbuscar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btncorreo.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btnmod.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btnRegistrar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/btnVolver.png">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/buscar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Courier.png">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Crear Agente.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Crear User.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/descargpdf.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/eliminar.png">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/eliminarFact.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/eliminaruser.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/exportar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/FONDO.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/guardar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/HOME.gif">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/imprimir solicitud.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Login.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Login_LLaves.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/logo-2.png">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/LOGO-WT-BLUE.png">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/lupa.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Mail.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/mensaje de error.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/modmail.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/mofuser.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/pagar.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/pdfbtn.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/pdfnc.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/print.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/Registrarpago.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/siguiente.PNG">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/TITULO.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/tresimpr.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Imagenes/wtimpr.jpg">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="ImpNotaCob.aspx">
+      <publishTime>09/30/2019 17:58:44</publishTime>
+    </File>
+    <File Include="ImprimirNC.aspx">
+      <publishTime>09/30/2019 17:58:26</publishTime>
+    </File>
+    <File Include="ImprimirSolCheque.aspx">
+      <publishTime>09/30/2019 17:58:03</publishTime>
+    </File>
+    <File Include="IngresarNotaCreditos.aspx">
+      <publishTime>09/25/2019 15:41:00</publishTime>
+    </File>
+    <File Include="IngresarPagoFactura.aspx">
+      <publishTime>09/30/2019 17:57:23</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>09/30/2019 17:56:59</publishTime>
+    </File>
+    <File Include="ModificarNC.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="ModificarPagos.aspx">
+      <publishTime>09/30/2019 17:56:31</publishTime>
+    </File>
+    <File Include="ModPerfil.aspx">
+      <publishTime>09/30/2019 17:56:16</publishTime>
+    </File>
+    <File Include="Otros/PDF/Archivo.txt">
+      <publishTime>09/30/2019 11:40:51</publishTime>
+    </File>
+    <File Include="PagoFacturas/PDF/Archivo.txt">
+      <publishTime>09/30/2019 11:41:03</publishTime>
+    </File>
+    <File Include="pagos_agentes_Listado.aspx">
+      <publishTime>09/30/2019 17:44:59</publishTime>
+    </File>
+    <File Include="Perfiles.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="RealizarPago.aspx">
+      <publishTime>09/30/2019 17:55:44</publishTime>
+    </File>
+    <File Include="Registroscompletos.aspx">
+      <publishTime>09/30/2019 21:55:37</publishTime>
+    </File>
+    <File Include="Registro_Control_Op.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="ReservasGuiaAerea.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.css">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.css">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.2.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.2.min.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.maskedinput.js">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/Site.css">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Scripts/style.css">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="SolCheque.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Solicitud_Guia.aspx">
+      <publishTime>09/25/2019 15:29:14</publishTime>
+    </File>
+    <File Include="totalPagos.aspx">
+      <publishTime>09/30/2019 21:52:38</publishTime>
+    </File>
+    <File Include="TRegistros.aspx">
+      <publishTime>09/30/2019 18:45:17</publishTime>
+    </File>
+    <File Include="Usuarios.aspx">
+      <publishTime>09/30/2019 17:53:21</publishTime>
+    </File>
+    <File Include="Vendedor.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="VerDetalleNcobro.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="VerDett.aspx">
+      <publishTime>09/30/2019 18:34:57</publishTime>
+    </File>
+    <File Include="VerRegistros.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="VerSolicitudes.aspx">
+      <publishTime>01/30/2019 15:51:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/30/2019 16:38:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

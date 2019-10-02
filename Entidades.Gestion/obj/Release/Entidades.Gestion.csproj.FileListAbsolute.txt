@@ -1,0 +1,6 @@
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\bin\Release\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\bin\Release\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\obj\Release\Entidades.Gestion.csprojAssemblyReference.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\obj\Release\Entidades.Gestion.csproj.CoreCompileInputs.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\obj\Release\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\Entidades.Gestion\obj\Release\Entidades.Gestion.pdb

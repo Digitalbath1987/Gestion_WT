@@ -1,0 +1,16 @@
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\GESTION.dll.config
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\GESTION.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\GESTION.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\Entidades.Gestion.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\Gestion.CapadeDatos.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\Entidades.Gestion.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\Gestion.CapadeDatos.pdb
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.csprojAssemblyReference.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.Properties.Resources.resources
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.csproj.GenerateResource.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.csproj.CoreCompileInputs.cache
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.csproj.CopyComplete
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.dll
+C:\Users\Digital\Desktop\WTI\codigos fuentes\Gestion\GESTION\obj\Release\GESTION.pdb

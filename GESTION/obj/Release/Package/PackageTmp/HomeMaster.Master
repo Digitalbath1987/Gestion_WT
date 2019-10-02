@@ -1,0 +1,237 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.master.cs" Inherits="GESTION.HomeMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>GESTION</title>
+
+     <link href="/Gestion2/scripts/bootstrap.css" rel="stylesheet" />
+        <link href="/Gestion2/scripts/bootstrap.min.css" rel="stylesheet" />
+        <link href="/Gestion2/scripts/Site.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   <style type="text/css">
+      * {
+   margin:0;
+   padding:0
+}
+html,
+body,
+#wrap {
+   height: 100%;
+}
+body > #wrap {
+   height: auto;
+   min-height: 100%;
+}
+#content {
+   padding-bottom: 50px; /* Mis altura que el footer */
+} 
+#footer {
+   position: relative;
+   margin-top: -50px; /* Misma altura que el footer en negativo */
+   height: 50px; /* Altura del footer */
+   clear: both;
+}
+		
+       
+        .auto-style1 {
+            width: 100%;
+            text-align: center;
+        }
+       
+        .auto-style6 {
+            width: 100%;
+            text-align: right;
+        }
+        .auto-style7 {
+            width: 100%;
+            text-align: left;
+        }
+       
+        .textheader {
+            text-align: center;
+        }
+       
+        </style>
+         
+</head>
+<body>
+      
+ <div id="wrap">
+   <div id="header">
+  <div class="textheader">
+       <div class="article">
+        <small class="hidden-xs">
+        <span class="auto-style6"><strong>Bienvenido: </strong> </span> <strong> <asp:Label ID="lblNombre" runat="server" Text="Label" CssClass="auto-style7" style="font-family: 'Bookman Old Style'"></asp:Label>
+        </strong>&nbsp;<strong><asp:Label ID="lblApellido" runat="server" Text="Label" CssClass="auto-style7" style="font-family: 'Bookman Old Style'"></asp:Label>
+        </strong>
+        <span class="auto-style6"><strong>&nbsp;<span class="auto-style1">||</span>&nbsp;</strong><span class="auto-style7"><strong>Perfil: </strong>
+        </span>
+        <strong>
+        <asp:Label ID="lblPerfil" runat="server" Text="Label" CssClass="auto-style7" style="font-family: 'Bookman Old Style'"></asp:Label></strong><span class="auto-style1"><strong>&nbsp;|| Usuario: <asp:Label ID="lblUsuario" runat="server" CssClass="auto-style7" Text="Label" style="font-family: 'Bookman Old Style'"></asp:Label>
+         &nbsp;||&nbsp;UF: <asp:Label ID="lbluf" runat="server" Text="Label"></asp:Label>
+         &nbsp;||&nbsp;USD: <asp:Label ID="USD" runat="server" Text="Label"></asp:Label>
+         &nbsp; ||&nbsp; EUR: <asp:Label ID="EUR" runat="server" Text="Label"></asp:Label>
+         &nbsp; ||&nbsp;USD WT: <asp:Label ID="dolacuer" runat="server" Text="Label"></asp:Label>
+         &nbsp;||&nbsp;PARIDAD: <asp:Label ID="IPC" runat="server" Text="Label"></asp:Label>
+         &nbsp;&nbsp; </strong>
+        </span><strong>
+        <asp:Label ID="lblfecha" runat="server" Text="Label"></asp:Label>
+        </strong> </span>
+        </small>  
+  
+</div>
+</div>   
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">GESTION</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.aspx"><i class="glyphicon glyphicon-home"></i>&nbsp;Inicio <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-usd"></i>&nbsp;Pago Agentes<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="/Gestion2/IngresarPagoFactura.aspx">Registrar Factura</a></li>
+            <li><a href="/Gestion2/pagos_agentes_Listado.aspx">Listado Pago Agentes</a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="/Gestion2/FiltrarPagAgentes.aspx">Filtrar / Agentes</a></li>
+            <li><a href="/Gestion2/FiltrarPagos.aspx">Filtrar / Fechas</a></li>
+            <li><a href="/Gestion2/BuscarOP.aspx">Filtrar / OP.</a></li>
+            <li><a href="/Gestion2/TRegistros.aspx">Filtrar / Estado</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/Gestion2/Registroscompletos.aspx">Exportar Total Registros</a></li>
+            <li><a href="/Gestion2/totalPagos.aspx">Exportar Total Pagos</a></li>
+            <li><a href="/Gestion2/exportavsoft.aspx">Exportar A&V Soft</a></li>
+          </ul>
+        </li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-piggy-bank"></i>&nbsp;Cobro Agentes<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/Gestion2/CobranzaAgentes.aspx">Registrar cobro</a></li>
+            <li><a href="/Gestion2/exportEXC.aspx">Exportar Excel</a></li>
+           <li><a href="/Gestion2/Filtros.aspx">Filtrar Registros</a></li>
+          </ul>
+        </li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-file"></i>Credito/Debito/Despacho<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="/Gestion2/IngresarNotaCreditos.aspx">Registrar NC/ND </a></li>
+             <li><a href="/Gestion2/ExportarNCreditos.aspx">Exportar Registros</a></li>
+             <li><a href="/Gestion2/FiltrarNC.aspx">Filtrar Registros</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="/Gestion2/Solicitud_Guia.aspx">Solicitud Guia Despacho</a></li>
+
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-paste"></i>&nbsp;Cheque/transferencia/Nota de Cobro<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="/Gestion2/SolCheque.aspx">Registrar</a></li>
+          <li><a href="/Gestion2/VerSolicitudes.aspx">Filtrar Sol. Cheques</a></li>
+<li><a href="../ExportarSolCheques.aspx">Exportar Sol. Cheques & Transferencias</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="/Gestion2/FiltrarNotaC.aspx">Filtrar Nota de Cobros</a></li>
+          <li><a href="/Gestion2/Exportar_Excel_NCobro.aspx">Exportar Nota de Cobros</a></li>
+
+          <li role="separator" class="divider"></li>
+          <li><a href="/Gestion2/Cobranzas.aspx">Gestion de Cobranzas</a></li>
+
+          </ul>
+        </li>
+
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-exclamation-sign"></i>&nbsp;Control Operacional<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="/Gestion2/Registro_Control_Op.aspx">Registrar Control BL</a></li>
+             <li><a href="/Gestion2/VerRegistros.aspx">Filtrar BL</a></li>
+              <li><a href="/Gestion2/Exportar_Control_Op.aspx">Exportar Registros BL</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="/Gestion2/ReservasGuiaAerea.aspx">Registrar Guia Aerea</a></li>
+             <li><a href="/Gestion2/Filtros_Guias.aspx">Filtrar Guias</a></li>
+             <li><a href="/Gestion2/Exportar_Guias.aspx">Exportar Guias</a></li>
+         </ul>
+        </li>
+
+           <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-cog"></i>&nbsp;Mantenedor<span class="caret"></span></a>
+           <ul class="dropdown-menu">
+           <li><a href="/Gestion2/Usuarios.aspx">Crear Usuario</a></li>
+           <li><a href="/Gestion2/Perfiles.aspx">Asignar Perfiles</a></li>
+           <li><a href="/Gestion2/Agentes.aspx">Crear Agente</a></li>
+           <li><a href="/Gestion2/Agregar_Nuevo_Customer.aspx">Agregar Customer</a></li>
+           <li><a href="/Gestion2/AgregarNaviera.aspx">Agregar Naviera</a></li>
+           <li><a href="/Gestion2/Clientes.aspx">Agregar Clientes</a></li>
+           <li><a href="/Gestion2/Vendedor.aspx">Agregar Vendedor</a></li>
+           <li role="separator" class="divider"></li>
+           <li><a href="/Gestion2/Correo.aspx">Parametros Correo</a></li> 
+           <li role="separator" class="divider"></li>
+       
+          </ul>
+        </li>
+
+      </ul>
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          
+        </div>
+      
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="glyphicon glyphicon-off btn-default"></i>  <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li id="cerrar" runat="server" onclick="cerrarsesion" ><a href="/Gestion2/Login.aspx"><strong>CERRAR SESION</strong></a></li>
+          <li role="separator" class="divider"></li>
+             <li><a href="/Gestion2/CambiarPass.aspx"><strong>CAMBIAR CONTRASEÑA</strong></a></li> 
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+   <div id="content">
+        <form id="formpincipal" runat="server">
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1"  runat="server">  
+    <div class="auto-style8" style="height: 19px; width: 100%">
+    </div>
+     </asp:ContentPlaceHolder>
+    </form>
+   </div>
+</div>
+<div id="footer">
+<div class="textheader">
+<small class="hidden-xs">
+    Developed by Mario Rosales Figueroa © Copyright 2017 All Rights Reserved , World Transport International Ltda 
+</small>  
+</div>
+</div>
+</body>
+</html>
